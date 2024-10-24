@@ -1,3 +1,5 @@
+AOS.init();
+
 const dataDoEvento = new Date("Sep 30, 2025 15:00:00");
 const timeStampDoEvento = dataDoEvento.getTime();
 

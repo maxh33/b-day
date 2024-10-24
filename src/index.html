@@ -3,12 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Luiza Birthday</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
     <link rel="stylesheet" href="styles/main.scss">
 </head>
 <body>
-    <h1>Ola</h1>
-    <img src="./images/backend.png" alt="">
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./images/LogotipoMaxBuffet.svg" alt="">
+            <p class="hero__text">
+                A festa de aniversário da Luiza começa em <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Buffet Max & CIA. - Rolândia - Paraná
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Papai e Mamãe</b>
+                        Tragam seu Pequeno
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Será no Dia</b>
+                        30/09 as 15:00
+                    </li>
+                </ul>
+            <a href="#" class="button button--primary">
+                Confirme sua Presença
+            </a>
+            </div>
+        </div>
+    </header>
     <script src="scripts/main.js"></script>
 </body>
 </html>

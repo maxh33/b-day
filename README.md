@@ -13,7 +13,7 @@ The project is a dynamic web application that provides an interactive user exper
 
 ## Deployment
 
-The application is deployed on Vercel and can be accessed at [https://b-iwgdhrcqy-maxh33s-projects.vercel.app/](https://b-iwgdhrcqy-maxh33s-projects.vercel.app/).
+The application is deployed on Vercel and can be accessed at [https://b-day-five.vercel.app/](https://b-day-five.vercel.app/).
 
 ## Running the Page Locally
 

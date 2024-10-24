@@ -9,14 +9,14 @@
     white-space: nowrap;
 
     &--primary {
-        background-color: variables.$purple;
-        color: variables.$textColor;
+        background-color: variables.$buttonColor;
+        color: variables.$heroTextColor;
         border: none;
         cursor: pointer;
         transition: all 2.5s;
 
         &:hover {
-            background-color: #4924ad;
+            background-color: variables.$green;
             transform: scale(1.15);
         }
     }

@@ -18,9 +18,9 @@
         left: 0;
         height: 100%;
         width: 100%;
-        background-color: variables.$secondaryTextColor;
+        background-color: variables.$backgroundColor;
         content: '';
-        opacity: .2;
+        opacity: .8;
     }
 
     &__text {

@@ -1,0 +1,40 @@
+@use '../variables';
+
+.button {
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+
+    &--primary {
+        background-color: variables.$buttonColor;
+        color: variables.$heroTextColor;
+        border: none;
+        cursor: pointer;
+        transition: all 2.5s;
+
+        &:hover {
+            background-color: variables.$green;
+            transform: scale(1.15);
+        }
+    }
+
+    @media (max-width: 640px) {
+        display: block;
+        width: 100%;
+    }
+
+    @media (min-width: 641px) and (max-width: 1023px) {
+        display: flex;
+        align-items: center;
+    }
+
+    @media (min-width: 1024px) and (max-width: 1366px) {
+        &--prog {
+            width: 50%;
+            margin-bottom: 32px;
+        }
+    }
+}
